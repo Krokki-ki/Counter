@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     int number = 0;
     public void click(View view) {
-        if (number < 10) {
+        if (number <= 9) {
             number++;
             count.setText(Integer.toString(number));
         } else {

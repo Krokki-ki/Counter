@@ -19,7 +19,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Chicks" >
-        <activity android:name="com.example.chicks.MainActivity" >
+        <activity
+            android:name="com.example.chicks.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

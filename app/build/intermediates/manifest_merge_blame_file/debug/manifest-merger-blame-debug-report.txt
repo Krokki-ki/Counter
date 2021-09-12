@@ -11,7 +11,7 @@
 9-->D:\Android\Chicks\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->D:\Android\Chicks\app\src\main\AndroidManifest.xml:5:5-22:19
+11-->D:\Android\Chicks\app\src\main\AndroidManifest.xml:5:5-24:19
 12        android:allowBackup="true"
 12-->D:\Android\Chicks\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -29,27 +29,30 @@
 20        android:testOnly="true"
 21        android:theme="@style/Theme.Chicks" >
 21-->D:\Android\Chicks\app\src\main\AndroidManifest.xml:11:9-44
-22        <activity android:name="com.example.chicks.MainActivity" >
-22-->D:\Android\Chicks\app\src\main\AndroidManifest.xml:12:9-18:20
-22-->D:\Android\Chicks\app\src\main\AndroidManifest.xml:12:19-47
-23            <intent-filter>
-23-->D:\Android\Chicks\app\src\main\AndroidManifest.xml:13:13-17:29
-24                <action android:name="android.intent.action.MAIN" />
-24-->D:\Android\Chicks\app\src\main\AndroidManifest.xml:14:17-69
-24-->D:\Android\Chicks\app\src\main\AndroidManifest.xml:14:25-66
-25
-26                <category android:name="android.intent.category.LAUNCHER" />
-26-->D:\Android\Chicks\app\src\main\AndroidManifest.xml:16:17-77
-26-->D:\Android\Chicks\app\src\main\AndroidManifest.xml:16:27-74
-27            </intent-filter>
-28        </activity>
-29
-30        <meta-data
-30-->D:\Android\Chicks\app\src\main\AndroidManifest.xml:19:9-21:57
-31            android:name="preloaded_fonts"
-31-->D:\Android\Chicks\app\src\main\AndroidManifest.xml:20:13-43
-32            android:resource="@array/preloaded_fonts" />
-32-->D:\Android\Chicks\app\src\main\AndroidManifest.xml:21:13-54
-33    </application>
-34
-35</manifest>
+22        <activity
+22-->D:\Android\Chicks\app\src\main\AndroidManifest.xml:12:9-19:20
+23            android:name="com.example.chicks.MainActivity"
+23-->D:\Android\Chicks\app\src\main\AndroidManifest.xml:14:13-41
+24            android:configChanges="keyboardHidden|orientation|screenSize" >
+24-->D:\Android\Chicks\app\src\main\AndroidManifest.xml:13:13-74
+25            <intent-filter>
+25-->D:\Android\Chicks\app\src\main\AndroidManifest.xml:15:13-18:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->D:\Android\Chicks\app\src\main\AndroidManifest.xml:16:17-69
+26-->D:\Android\Chicks\app\src\main\AndroidManifest.xml:16:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->D:\Android\Chicks\app\src\main\AndroidManifest.xml:17:17-77
+28-->D:\Android\Chicks\app\src\main\AndroidManifest.xml:17:27-74
+29            </intent-filter>
+30        </activity>
+31
+32        <meta-data
+32-->D:\Android\Chicks\app\src\main\AndroidManifest.xml:21:9-23:57
+33            android:name="preloaded_fonts"
+33-->D:\Android\Chicks\app\src\main\AndroidManifest.xml:22:13-43
+34            android:resource="@array/preloaded_fonts" />
+34-->D:\Android\Chicks\app\src\main\AndroidManifest.xml:23:13-54
+35    </application>
+36
+37</manifest>
