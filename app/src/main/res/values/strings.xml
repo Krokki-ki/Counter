@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">STUPID COUNTER</string>
+    <string name="count">0</string>
+    <string name="tap">TAP</string>
+</resources>

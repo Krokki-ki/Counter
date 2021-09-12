@@ -1,0 +1,4 @@
+com/example/chicks/BuildConfig.java
+ com.example.chicks.BuildConfig
+com/example/chicks/MainActivity.java
+ com.example.chicks.MainActivity
